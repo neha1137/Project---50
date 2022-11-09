@@ -1,0 +1,49 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  display:flex;
+  justify-content:space-around;
+  
+}
+body {
+  background-color: whitesmoke;
+}
+.box{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  border: 2px solid #000000;
+  border-radius: 50px;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  flex-flow: row;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-content:space-evenly; 
+  flex-wrap:wrap;
+  font-family:sans-serif;
+  text-align:start;
+  
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+ 
+}
+.languages {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family:fantasy;
+}
